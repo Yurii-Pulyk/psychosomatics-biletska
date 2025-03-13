@@ -1,0 +1,34 @@
+.navBlok {
+  display: flex;
+}
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 20px; /* Відстань між іконками */
+  margin-right: 50px;
+  padding-top: 4%;
+}
+
+.navList li a {
+  color: #000; /* Колір іконок */
+  font-size: 24px; /* Розмір іконок */
+  text-decoration: none; /* Без підкреслення */
+}
+
+.navList li a:hover {
+  color: #007bff; /* Колір при наведенні */
+}
+
+.contacts p {
+  margin-right: 26px;
+  font-size: 16px;
+}
+
+.contacts p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contacts p a:hover {
+  color: #007bff;
+}

@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Розміщення елементів на протилежних кінцях */
+  align-items: center; /* Вертикальне вирівнювання по центру */
+  padding: 5px;
+  max-height: 200px;
+  background-color: aliceblue;
+}
+
+.header h1 {
+  margin-left: 4%;
+}
+
+.header button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Якщо потрібно вирівняти заголовок і кнопку ліворуч або праворуч */
+.header button {
+  align-self: flex-end; /* Якщо хочете вирівняти кнопку по правому краю */
+}
