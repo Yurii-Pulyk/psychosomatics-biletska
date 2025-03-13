@@ -1,8 +1,17 @@
 .footer {
-  display: flex;
-  height: 100px;
-  width: 100%;
-  background-color: black;
   position: fixed;
+  bottom: -100px; /* Спочатку футер прихований */
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: bottom 0.3s ease-in-out;
+}
+
+/* Футер з’являється тільки при скролі вниз */
+.footer.show {
   bottom: 0;
 }

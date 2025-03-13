@@ -1,0 +1,32 @@
+.siteBar {
+  top: 200px; /* Відступ від хедера (залежить від висоти хедера) */
+  left: 0;
+  width: 250px; /* Ширина сайтбара */
+  /* bottom: 100px; */
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: auto; /* Дозволяє скролити, якщо контент великий */
+}
+
+.siteBar ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.siteBar li {
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.siteBar li:hover {
+  background-color: #444;
+}

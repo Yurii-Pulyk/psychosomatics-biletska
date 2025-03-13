@@ -1,3 +1,20 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  margin-left: 250px; /* Відступ, щоб сайтбар не накладався */
+  padding: 20px;
+  overflow: auto;
+}
+/* нове */
 #root {
   /* max-width: 1280px;
   margin: 0 auto;

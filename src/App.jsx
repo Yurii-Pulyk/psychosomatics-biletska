@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
+import SiteBar from './components/siteBar/siteBar';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +26,7 @@ function App() {
           count is {count}
         </button>
       </div> */}
+      <SiteBar />
       <Footer />
     </>
   );
