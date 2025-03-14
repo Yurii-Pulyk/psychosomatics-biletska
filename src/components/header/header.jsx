@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <>
       <div className={css.header}>
-        <h1>Valeria Biletsyka</h1>
+        <h1>Valeriia Biletsyka</h1>
         <HeaderContacts />
       </div>
     </>
